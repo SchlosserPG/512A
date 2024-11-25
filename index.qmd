@@ -112,7 +112,7 @@
 
 -   To download the data sets, go to our Blackboard datasets page and download them to your computer
 -   Once downloaded, unzip the file by right-clicking and selecting "Extract All", and then move the subfolder named data to your working directory.
--   In the example below, my project folder for the class is called BUAD231 and the subfolder that contains all the data files is called data. You can put your folder anywhere on the hard drive of your computer, but do not download it to places on the cloud like OneDrive.
+-   In the example below, my project folder for the class is called BUAD512A and the subfolder that contains all the data files is called data. You can put your folder anywhere on the hard drive of your computer, but do not download it to places on the cloud like OneDrive.
 
 ![Saving Our Book Files Into a "data" Folder in Your Working Directory](Pictures/Ch0/BookFiles.png "Saving Our Book Files Into a "data" Folder in Your Working Directory")
 
