@@ -1,6 +1,11 @@
-# Module 0
+---
+title: "Module 0: Software Know-How"
+author: "Pamela Schlosser"
+date: "2024-08-09"
+output: html_document
+---
 
-# Installing R and R Studio
+# Installing R
 
 ### Installing R on Windows
 
@@ -26,6 +31,7 @@
 -   When the installation completes, click Close.
 -   Now that R is installed, you need to download and install RStudio.
 
+#  Installing R Studio
 ### Downloading RStudio For Mac or PC
 
 -   Go to the following URL: <https://posit.co/download/rstudio-desktop/>.
@@ -35,7 +41,7 @@
 
 ![RStudio](Pictures/Ch0/RStudio.png "RStudio")
 
-## Take Your First Look at R
+# Take Your First Look at R
 
 -   On the right, two windows, each with tabs
     -   There are many ways to customize the look of RStudio for accessibility purposes with a couple being the following:
@@ -46,7 +52,7 @@
 
 ![Console](Pictures/Ch0/Console.png "Screenshot of Console")
 
-## Creating a Project for Our Class
+# Creating a Project for Our Class
 
 -   The RStudio project file is a file that sits in the root directory, with the extension .Rproj. When your RStudio session is running through the project file (.Rproj), the current working directory points to the root folder where that .Rproj file is saved.
 -   Open up R Studio and Let’s Take a look around.
@@ -56,7 +62,7 @@
 
 ![CreateProject](Pictures/Ch0/CreateProject.png "Screenshot of Create Project in R Studio")
 
-## R Script files (MyFirstRscript.R)
+# R Script files (MyFirstRscript.R)
 
 -   Entering and running code at the R command line is effective and simple. However, each time you want to execute a set of commands, you have to re-enter them at the command line. Nothing saves for later.
 -   Complex commands are particularly difficult causing you to re-entering the code to fix any errors typographical or otherwise. Fortunately, you can make a .R script file to solve this issue.
@@ -69,9 +75,9 @@
 
 ![Screenshot of MyFirstScript.R](Pictures/Ch0/MyFirstScript.png "Screenshot of MyFirstScript.R")
 
-## Using R More Effectively
+# Using R More Effectively
 
-### Setting Options to Your Liking
+## Setting Options to Your Liking
 
 -   You have many options to customize R Studio.
 -   Go to Tools \> Global Options to see the list of options for you to customize.
@@ -82,7 +88,7 @@
 
 ![Tools \> Global Options.R](Pictures/Ch0/Options.png "Tools > Global Options.R")
 
-### Quick Keys in R
+## Quick Keys in R
 
 -   There are a lot of quick keys in R to make you able to use it faster and more effectively. You may look over these and try on your own.
 
@@ -92,7 +98,7 @@
 
 ![Editing Quick Keys](Pictures/Ch0/QuickKeys3.png "Editing Quick Keys")
 
-### Getting Help in R
+## Getting Help in R
 
 -   There are lots of ways to get help in R.
 -   In R, use the help search box to find information on a function, parameter, or package.
@@ -108,7 +114,7 @@
 -   The format is tapply(x, index, and fun), where x is a continuous variable, index is a grouping variable or factor, and fun is a function like mean.
 -   More on that function later in the first lessons.
 
-## Accessing Data Files for the Course
+# Accessing Data Files for the Course
 
 -   To download the data sets, go to our Blackboard datasets page and download them to your computer
 -   Once downloaded, unzip the file by right-clicking and selecting "Extract All", and then move the subfolder named data to your working directory.
@@ -119,13 +125,6 @@
 -   We will use a number of data files plus more for homework/projects, so be prepared to use these files throughout the class.
 
 # Introduction to RMarkdown
-
--   The goal of this lesson is to introduce you to RMarkdown and teach you how to format your output.
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=TRUE, tidy.opts = list(width.cutoff = 70), tidy = TRUE, message=FALSE, warning=FALSE)
-```
-
 -   R Markdown (RMD) files are a versatile format that combines plain text, code, and output to create dynamic and reproducible documents.
 -   Benefits of Using RMD Files:
     -   Reproducibility: Combining code and output ensures that the document is reproducible. Any changes in the data or analysis can be quickly updated.
@@ -144,12 +143,16 @@ knitr::opts_chunk$set(echo=TRUE, tidy.opts = list(width.cutoff = 70), tidy = TRU
 
 -   The YAML header is located at the beginning of the RMD file and contains metadata about the document, such as the title, author, date, and output format. Here is an example of a YAML header:
 
+```{r, eval=FALSE}
 ---
 title: "Intro to RMarkdown"
 author: "Pamela Schlosser"
 date: "2024-08-09"
 output: html_document
 ---
+```
+
+
 
 ## markdown Text
 
