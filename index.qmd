@@ -1,9 +1,4 @@
----
-title: "Module 0: Software Know-How"
-author: "Pamela Schlosser"
-date: "2024-08-09"
-output: html_document
----
+# Module 0: Software Know-How
 
 # Installing R
 
