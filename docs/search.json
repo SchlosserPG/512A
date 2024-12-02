@@ -928,5 +928,35 @@
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Summary</span>"
     ]
+  },
+  {
+    "objectID": "index.html#installing-r-on-windows",
+    "href": "index.html#installing-r-on-windows",
+    "title": "OMSBA 512A: Probability And Statistics",
+    "section": "Installing R on Windows",
+    "text": "Installing R on Windows\n\nOpen an internet browser and go to https://www.r-project.org/.\nClick CRAN hyperlink underneath Download on the left.\nSelect a CRAN location (a mirror site) and click the corresponding link. I selected O-cloud. This brings you to the following link: https://cloud.r-project.org/\nClick on the “Download R for Windows” link at the top of the page if you have a Windows computer.\n\nClick on the “install R for the first time” link at the top of the page.\nClick “Download R for Windows” and save the executable file somewhere on your computer.\nRun the .exe file\nAccept all defaults and follow the installation instructions\nNow that R is installed, you need to download and install RStudio.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0: Software Know-How</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#installing-r-on-a-mac",
+    "href": "index.html#installing-r-on-a-mac",
+    "title": "OMSBA 512A: Probability And Statistics",
+    "section": "Installing R on a Mac",
+    "text": "Installing R on a Mac\n\nOpen an internet browser and go to https://www.r-project.org/.\nClick CRAN hyperlink underneath Download on the left.\nSelect a CRAN location (a mirror site) and click the corresponding link. I selected O-cloud. This brings you to the following link: https://cloud.r-project.org/\nClick on the “Download R for (Mac) OS X” link at the top of the page.\nClick on the file containing the latest version of R under “Files.”\nSave the .pkg file, double-click it to open, and follow the installation instructions.\nAccept the license agreement and all subsequent defaults\nWhen the installation completes, click Close.\nNow that R is installed, you need to download and install RStudio.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0: Software Know-How</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#downloading-rstudio-for-mac-or-pc",
+    "href": "index.html#downloading-rstudio-for-mac-or-pc",
+    "title": "OMSBA 512A: Probability And Statistics",
+    "section": "Downloading RStudio For Mac or PC",
+    "text": "Downloading RStudio For Mac or PC\n\nGo to the following URL: https://posit.co/download/rstudio-desktop/.\nClick the Download button for Install RStudio.\nIt should recognize your operating system. If you see different an Installers for Supported Platforms section, click the version that is appropriate for your operating system. When the download is complete, run the install program, accepting all defaults.\nNote, RStudio might conflict with some Mac antivirus programs. Ensure your antivirus is not blocking it from installing. Only worry about this if you have difficulty installing the program.\n\n\n\n\nRStudio",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0: Software Know-How</span>"
+    ]
   }
 ]

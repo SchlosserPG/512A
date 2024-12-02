@@ -5,9 +5,10 @@ date: "2024-08-09"
 output: html_document
 ---
 
+
 # Installing R
 
-### Installing R on Windows
+## Installing R on Windows
 
 -   Open an internet browser and go to <https://www.r-project.org/>.
 -   Click CRAN hyperlink underneath Download on the left.
@@ -19,7 +20,7 @@ output: html_document
 -   Accept all defaults and follow the installation instructions
 -   Now that R is installed, you need to download and install RStudio.
 
-### Installing R on a Mac
+## Installing R on a Mac
 
 -   Open an internet browser and go to <https://www.r-project.org/>.
 -   Click CRAN hyperlink underneath Download on the left.
@@ -33,7 +34,7 @@ output: html_document
 
 # Installing R Studio
 
-### Downloading RStudio For Mac or PC
+## Downloading RStudio For Mac or PC
 
 -   Go to the following URL: <https://posit.co/download/rstudio-desktop/>.
 -   Click the Download button for Install RStudio.
