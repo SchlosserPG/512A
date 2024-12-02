@@ -832,71 +832,121 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "",
     "text": "Module 0",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#take-your-first-look-at-r",
     "href": "index.html#take-your-first-look-at-r",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "Take Your First Look at R",
     "text": "Take Your First Look at R\n\nOn the right, two windows, each with tabs\n\nThere are many ways to customize the look of RStudio for accessibility purposes with a couple being the following:\n\nYou can resize the windows using the splitters.\nYou can maximize/restore the windows within the left/right panels using the familiar Windows controls in the upper-right of each window.\n\n\nOn the left, the Console Window reproduces the R environment.\n\nObserve the command line with the \\(&gt;\\) symbol.\n\n\n\n\n\nConsole",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#creating-a-project-for-our-class",
     "href": "index.html#creating-a-project-for-our-class",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "Creating a Project for Our Class",
     "text": "Creating a Project for Our Class\n\nThe RStudio project file is a file that sits in the root directory, with the extension .Rproj. When your RStudio session is running through the project file (.Rproj), the current working directory points to the root folder where that .Rproj file is saved.\nOpen up R Studio and Let’s Take a look around.\nStart by creating a project for our class. Projects are great because they aid in your organization technique.\nYou will find that some professors are not insistent on making a project for their class, but it is helpful to still do to organize your materials. You will have a lot of code in this class, so it is good practice to keep everything organized!\nTo create a project click \\(File &gt; New Project - New Directory &gt; New Project\\) and save your project to a place on your computer (not the cloud).\n\n\n\n\nCreateProject",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#r-script-files-myfirstrscript.r",
     "href": "index.html#r-script-files-myfirstrscript.r",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "R Script files (MyFirstRscript.R)",
     "text": "R Script files (MyFirstRscript.R)\n\nEntering and running code at the R command line is effective and simple. However, each time you want to execute a set of commands, you have to re-enter them at the command line. Nothing saves for later.\nComplex commands are particularly difficult causing you to re-entering the code to fix any errors typographical or otherwise. Fortunately, you can make a .R script file to solve this issue.\nA .R script is simply a text file containing a set of commands and comments. The script can be saved and used later to rerun the code. The script can also be documented with comments and edited again and again to suit your needs.\n\nCreate your first R Script file within your Project for testing purposes.\n\nGo to File &gt; New File &gt; R Script\nSave this file as MyFirstRscript.R in your project folder you just made. You should see this new file under Files like mine is in the bottom right panel. As we create new files, continue to save them into your project folder.\n\nOn the .R file presented to the left, comments are added as denoted by the hashtag which you can type or push ctrl + shift + c.\nIf you type in your console, it will not save it for later. However, if you save code in this R Script file, you can open your file at a later date to rerun your code. Also, as we move through the class, feel free to document all your notes in your .R file via # called comments. More on comments later.\n\n\n\n\nScreenshot of MyFirstScript.R",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#using-r-more-effectively",
     "href": "index.html#using-r-more-effectively",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "Using R More Effectively",
     "text": "Using R More Effectively\n\nSetting Options to Your Liking\n\nYou have many options to customize R Studio.\nGo to Tools &gt; Global Options to see the list of options for you to customize.\nA few are listed below.\n\nYou can set your general information including your default working directory (when not in a project).\nYou can customize the appearance to a theme that accommodates your learning style and visual preferences.\nYou can turn on a spell check.\n\n\n\n\n\nTools &gt; Global Options.R\n\n\n\n\nQuick Keys in R\n\nThere are a lot of quick keys in R to make you able to use it faster and more effectively. You may look over these and try on your own.\n\n\n\n\nConsole Quick Keys\n\n\n\n\n\nSource Quick Keys\n\n\n\n\n\nEditing Quick Keys\n\n\n\n\nGetting Help in R\n\nThere are lots of ways to get help in R.\nIn R, use the help search box to find information on a function, parameter, or package.\n\n?mean\nhelp.search(‘swirl’)\nhelp(package = ‘MASS’)\n?install.packages\n\n\n\n\n\nGetting Help\n\n\n\nYou should try to look up the tapply command to see what it does.\n\nUse ?tapply in your .R file to pull up tapply() command or type tapply in the Help box. * Formally, you should see that the command applies a function to each cell of a ragged array, that is to each (non-empty) group of values given by a unique combination of the levels of certain factors. This means that the command does some math calculation (mean, sum, etc.) on a continuous variable after dividing the data by group.\n\nThe format is tapply(x, index, and fun), where x is a continuous variable, index is a grouping variable or factor, and fun is a function like mean.\nMore on that function later in the first lessons.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#accessing-data-files-for-the-course",
     "href": "index.html#accessing-data-files-for-the-course",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "Accessing Data Files for the Course",
     "text": "Accessing Data Files for the Course\n\nTo download the data sets, go to our Blackboard datasets page and download them to your computer\nOnce downloaded, unzip the file by right-clicking and selecting “Extract All”, and then move the subfolder named data to your working directory.\nIn the example below, my project folder for the class is called BUAD512A and the subfolder that contains all the data files is called data. You can put your folder anywhere on the hard drive of your computer, but do not download it to places on the cloud like OneDrive.\n\n\n\n\nSaving Our Book Files Into a “data” Folder in Your Working Directory\n\n\n\nWe will use a number of data files plus more for homework/projects, so be prepared to use these files throughout the class.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   },
   {
     "objectID": "index.html#summary",
     "href": "index.html#summary",
-    "title": "OMSBA 512A: Probability And Statistics",
+    "title": "Intro to RMarkdown",
     "section": "Summary",
     "text": "Summary\n\nAt the end of this section, you should have downloaded and browsed R in RStudio. You should have looked at the quick keys in R to make editing your R documents easier. You should set up a project folder for the course where you want to on your computer, and made your first .R script file located in that project folder. You should have tried a line of code or two as presented. Finally, you should have looked around the RStudio environment and found the help tab.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 0</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#yaml-header",
+    "href": "index.html#yaml-header",
+    "title": "Intro to RMarkdown",
+    "section": "yaml Header",
+    "text": "yaml Header\n\nThe YAML header is located at the beginning of the RMD file and contains metadata about the document, such as the title, author, date, and output format. Here is an example of a YAML header:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#markdown-text",
+    "href": "index.html#markdown-text",
+    "title": "Intro to RMarkdown",
+    "section": "markdown Text",
+    "text": "markdown Text\n\nMarkdown is a lightweight markup language with plain text formatting syntax. In an RMD file, you use Markdown to format the text, create lists, headers, links, and more. For example:\n\n\n\n\nStyles Example",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#code-chunks",
+    "href": "index.html#code-chunks",
+    "title": "Intro to RMarkdown",
+    "section": "Code Chunks",
+    "text": "Code Chunks\n\nCode chunks allow you to embed R (or other languages) code within the document. These chunks are executed when the document is rendered, and their output is included in the final document. Code chunks are defined with triple backticks and the language, like this:\n\n\n\n\nCode Chunk Example\n\n\n\nChunk output can be customized with knitr options, arguments set in the {} of a chunk header.\n\ninclude = FALSE prevents code and results from appearing in the finished file. R Markdown still runs the code in the chunk, and the results can be used by other chunks.\necho = FALSE prevents code, but not the results from appearing in the finished file. This is a useful way to embed figures.\nmessage = FALSE prevents messages that are generated by code from appearing in the finished file.\nwarning = FALSE prevents warnings that are generated by code from appearing in the finished.\nfig.cap = “…” adds a caption to graphical results.\n\n\n\n\n\nArguments of Chunk",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#output-formats",
+    "href": "index.html#output-formats",
+    "title": "Intro to RMarkdown",
+    "section": "Output Formats",
+    "text": "Output Formats\n\nRMD files can be rendered into various output formats including HTML, PDF, and Word documents. The output format is specified in the YAML header. To generate the final document, you use the knit function in RStudio or call rmarkdown::render() in your R script.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#visualization-and-plots",
+    "href": "index.html#visualization-and-plots",
+    "title": "Intro to RMarkdown",
+    "section": "Visualization and Plots",
+    "text": "Visualization and Plots\n\nRMD files can include visualizations and plots. For example, you can create and embed a plot using the ggplot2 package.\n\nlibrary(ggplot2) ggplot(mpg, aes(x=displ, y=hwy)) + geom_point()\n\nlibrary(ggplot2)\nggplot(mpg, aes(x = displ, y = hwy)) + geom_point()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to RMarkdown</span>"
     ]
   }
 ]
