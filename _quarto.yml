@@ -22,8 +22,6 @@ format:
     css: styles.css
     number-sections: false 
 
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 
