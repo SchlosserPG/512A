@@ -143,14 +143,7 @@ output: html_document
 
 -   The YAML header is located at the beginning of the RMD file and contains metadata about the document, such as the title, author, date, and output format. Here is an example of a YAML header:
 
-```{r, eval=FALSE}
----
-title: "Intro to RMarkdown"
-author: "Pamela Schlosser"
-date: "2024-08-09"
-output: html_document
----
-```
+![YAML Header Example](Pictures/Ch0/ymlHeader.png "YAML Header Example")
 
 
 
