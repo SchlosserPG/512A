@@ -6,12 +6,12 @@ knitr::opts_chunk$set(echo=TRUE, tidy.opts = list(width.cutoff = 70), tidy = TRU
 
 -   The goal of this lesson is to teach you how to summarize descriptive statistics for both quantitative and qualitative data in R. To succeed, you will learn to differentiate between these data types and understand their context, which provides crucial information about how the data was collected and its intended use. Additionally, you will gain skills in cleaning datasets for analytics using dplyr, a powerful R package designed for intuitive and efficient data manipulation with data frames or tibbles, a modern reimagining of data frames provided by the tibble package.
 
-
 ### At a Glance
 
 -   In order to succeed in this lesson, we need to be able to evaluate variables descriptively and understand how to clean and prepare data to make variables easier to use and in the correct form. This sometimes includes subsetting and filtering data alongside other techniques.
 
 ### Lesson Objectives
+
 -   Choose and conduct descriptive analyses for categorical (factor) variables.
 -   Choose and conduct descriptive analyses for continuous (numeric) variables.
 -   Create variables and identify and change data types.
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo=TRUE, tidy.opts = list(width.cutoff = 70), tidy = TRU
 
 ### Consider While Reading
 
--   In any analysis, it is critically important to understand your data set by evaluating descriptive statistics. For qualitative data, you should know how to calculate frequencies and proportions and make a user-friendly display of results. For quantitative data, you should know what a histogram is and how it is used to describe quantitative data. We also should know how to describe variables by their center and spread of the distribution. Finally, we should know how to clean datasets to be able to use them more effectively. 
+-   In any analysis, it is critically important to understand your data set by evaluating descriptive statistics. For qualitative data, you should know how to calculate frequencies and proportions and make a user-friendly display of results. For quantitative data, you should know what a histogram is and how it is used to describe quantitative data. We also should know how to describe variables by their center and spread of the distribution. Finally, we should know how to clean datasets to be able to use them more effectively.
 
 ## Summarizing Qualitative Data
 
@@ -475,7 +475,6 @@ semTools::skew(customers$Orders) ##skewed right
 
 -   While there is no great function to test for spread, you can look at the data and see if it is concentrated around 1 or 2 frequencies. If it is, then the spread is distorted towards those high frequency values.
 
-
 # Data Preparation
 
 -   We often spend a considerable amount of time inspecting and preparing the data for the subsequent analysis. This includes the following:
@@ -649,15 +648,12 @@ dates <- ym(stryyyymm)
 str(dates)
 ```
 
-
 ```{r}
 # Convert date info in format 'mm/dd/yyyy' using as.Date
 strDates <- c("01/05/1965", "08/16/1975")
 dates <- as.Date(strDates, "%m/%d/%Y") 
 str(dates)
 ```
-
-
 
 ```{r}
 
@@ -1432,5 +1428,6 @@ Use the following prompts on a generative AI, like chatGPT, to learn more about 
 -   How would you use summarize() to calculate mean, median, and standard deviation for a numerical variable in R?
 
 # Summary
+
 -   In this lesson, we worked through descriptive statistics including skewness and kurtosis. We learned about variables and scales of measurement, how to summarize qualitative and quantitative data.
 -   We then worked through the basics on data cleaning. Data cleaning is so important and there are so many ways to do it. Provided are some examples using popular functions in dplyr (under tidyverse).
