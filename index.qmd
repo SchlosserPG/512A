@@ -31,7 +31,8 @@ output: html_document
 -   When the installation completes, click Close.
 -   Now that R is installed, you need to download and install RStudio.
 
-#  Installing R Studio
+# Installing R Studio
+
 ### Downloading RStudio For Mac or PC
 
 -   Go to the following URL: <https://posit.co/download/rstudio-desktop/>.
@@ -125,6 +126,7 @@ output: html_document
 -   We will use a number of data files plus more for homework/projects, so be prepared to use these files throughout the class.
 
 # Introduction to RMarkdown
+
 -   R Markdown (RMD) files are a versatile format that combines plain text, code, and output to create dynamic and reproducible documents.
 -   Benefits of Using RMD Files:
     -   Reproducibility: Combining code and output ensures that the document is reproducible. Any changes in the data or analysis can be quickly updated.
@@ -144,8 +146,6 @@ output: html_document
 -   The YAML header is located at the beginning of the RMD file and contains metadata about the document, such as the title, author, date, and output format. Here is an example of a YAML header:
 
 ![YAML Header Example](Pictures/Ch0/ymlHeader.png "YAML Header Example")
-
-
 
 ## markdown Text
 
@@ -182,7 +182,6 @@ library(ggplot2) ggplot(mpg, aes(x=displ, y=hwy)) + geom_point()
 library(ggplot2)
 ggplot(mpg, aes(x=displ, y=hwy)) + geom_point()
 ```
-
 
 ## Summary
 
