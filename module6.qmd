@@ -399,15 +399,19 @@ TukeyHSD(Anova2way)
 
 ## choose() command
 
-* The choose(n, k) function in R calculates the number of ways to choose k items from a set of n items without regard to order. It answers the question: "How many different groups of k can I make from n items?" For example, choose(5, 2) equals 10, meaning you can make 10 different pairs from a group of 5 items.
+-   The choose(n, k) function in R calculates the number of ways to choose k items from a set of n items without regard to order. It answers the question: "How many different groups of k can I make from n items?" For example, choose(5, 2) equals 10, meaning you can make 10 different pairs from a group of 5 items.
+
 -   The Combination function counts the number of ways to choose objects from a total of objects. The order in which the objects are listed does not matter.
+
 -   Since repetition is not allowed, we use $C(n,x) = (n)!/((n-x!)*x!)$
 
-* When performing Tukey's Honest Significant Difference (TukeyHSD) test for post-hoc analysis, pairwise comparisons are made between all possible pairs of group means. The total number of comparisons depends on the number of groups and can be calculated using the choose function. The choose function conceptually relates to TukeyHSD because it tells you how many pairwise comparisons will be tested based on the number of groups.
-     + In post hoc tests, x is always 2.
-     + If you have 4 groups (A, B, C, D), choose(4, 2) = 6, meaning 6 pairwise comparisons are made: A-B, A-C, A-D, B-C, B-D, and C-D.
+-   When performing Tukey's Honest Significant Difference (TukeyHSD) test for post-hoc analysis, pairwise comparisons are made between all possible pairs of group means. The total number of comparisons depends on the number of groups and can be calculated using the choose function. The choose function conceptually relates to TukeyHSD because it tells you how many pairwise comparisons will be tested based on the number of groups.
 
-* You can also calculate the factorial of a number using the factorial function in base R. 
+    -   In post hoc tests, x is always 2.
+    -   If you have 4 groups (A, B, C, D), choose(4, 2) = 6, meaning 6 pairwise comparisons are made: A-B, A-C, A-D, B-C, B-D, and C-D.
+
+-   You can also calculate the factorial of a number using the factorial function in base R.
+
 ```{r}
 n <- 4
 #C(4,2) = 4!/2!*(4-2)!
